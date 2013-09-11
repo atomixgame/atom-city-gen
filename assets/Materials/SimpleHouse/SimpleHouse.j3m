@@ -1,0 +1,17 @@
+Material SimpleHouse : MatDefs/InteriorMapping/InteriorMapping.j3md {
+     MaterialParameters {
+        FloorTex : Flip Repeat Textures/Building/InteriorMapping/Floor256.tga
+        OutsideWallTex : Flip Repeat Textures/Building/InteriorMapping/Windows.tga
+        InsideWallTex : Flip Repeat Textures/Building/InteriorMapping/StonesLight256.tga
+        CeilingTex : Flip Repeat Textures/Building/InteriorMapping/Ceiling256.tga
+        HumanTex : Flip Repeat Textures/Building/InteriorMapping/FurniturePlane.tga
+        FloorHeight : 2.0
+        RoofTex : Flip Repeat Textures/Building/Roof/RoofTop1.jpg
+        HouseSizeX : 2.0
+        HouseSizeY : 2.0
+        WindowInTex : 4
+     }
+    AdditionalRenderState {
+      FaceCull Back
+    }
+}

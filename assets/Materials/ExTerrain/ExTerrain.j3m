@@ -1,0 +1,9 @@
+Material ExTerrain : MatDefs/ExTerrain/ExTerrain.j3md {
+     MaterialParameters {
+        ColorMap : Textures/ExTerrain/tileGrassDirt1.png
+        Color : 1.0 1.0 1.0 1.0
+     }
+    AdditionalRenderState {
+        Wireframe On
+    }
+}

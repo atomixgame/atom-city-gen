@@ -1,0 +1,19 @@
+MaterialDef Simple {
+    MaterialParameters {
+        Int Width
+        Int Height
+        Texture2D ColorMap
+        Color Color
+    }
+ 
+    Technique {
+        VertexShader GLSL100:   Shaders/ExTerrain/ExTerrain.vert
+        FragmentShader GLSL100: Shaders/ExTerrain/ExTerrain.frag
+ 
+        WorldParameters {
+            Time
+        }
+        Defines {
+        }
+    }
+}

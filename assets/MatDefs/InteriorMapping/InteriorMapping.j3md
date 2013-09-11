@@ -1,0 +1,34 @@
+MaterialDef InteriorMapping {
+    MaterialParameters {
+        Float BuildingWidth
+        Float BuildingWidth
+
+        Float RoomX
+        Float RoomY
+        Float FloorHeight
+        Float HouseSizeX
+        Float HouseSizeY
+        Int WindowInTex : 4
+        Texture2D CeilingTex
+        Texture2D FloorTex
+        Texture2D OutsideWallTex
+        Texture2D InsideWallTex
+        Texture2D HumanTex
+        Texture2D RoofTex
+    }
+ 
+    Technique {
+        VertexShader GLSL100:   Shaders/InteriorMapping/InteriorMapping.vert
+        FragmentShader GLSL100: Shaders/InteriorMapping/InteriorMapping.frag
+ 
+        WorldParameters {
+            Time
+            CameraPosition
+            WorldMatrix
+            WorldMatrixInverse
+            WorldViewProjectionMatrix
+        }
+        Defines {
+        }
+    }
+}

@@ -1,0 +1,22 @@
+*.dll
+
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+references/
+
+# Class Files #
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+*.7z
+*.rar
+

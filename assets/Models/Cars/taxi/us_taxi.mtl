@@ -1,0 +1,39 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2006 Google, Inc.
+
+newmtl us_taxi_body1
+Ka 0.000000 0.000000 0.000000
+Kd 0.509804 0.419608 0.082353
+Ks 0.330000 0.330000 0.330000
+map_Kd us_taxi/us_taxi_body1.JPG
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl glass1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+d 0.300000
+
+newmtl plates_us1
+Ka 0.000000 0.000000 0.000000
+Kd 0.592157 0.635294 0.690196
+Ks 0.330000 0.330000 0.330000
+map_Kd us_taxi/plates_us1.JPG
+
+newmtl saloon_wheel1
+Ka 0.000000 0.000000 0.000000
+Kd 0.149020 0.149020 0.152941
+Ks 0.330000 0.330000 0.330000
+map_Kd us_taxi/saloon_wheel1.JPG
+
+newmtl chassis_gen1
+Ka 0.000000 0.000000 0.000000
+Kd 0.152941 0.152941 0.149020
+Ks 0.330000 0.330000 0.330000
+map_Kd us_taxi/chassis_gen1.JPG
+
